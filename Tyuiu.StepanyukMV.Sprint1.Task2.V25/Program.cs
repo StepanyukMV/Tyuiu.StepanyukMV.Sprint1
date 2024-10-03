@@ -19,7 +19,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task2.V25
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" " + ds.ConvertRadsToDegrees(x));
+            Console.WriteLine("jopa " + ds.ConvertRadsToDegrees(x)/100);
 
             Console.ReadLine();
         }

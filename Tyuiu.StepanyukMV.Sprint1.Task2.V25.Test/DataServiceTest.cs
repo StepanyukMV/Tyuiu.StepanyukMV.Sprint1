@@ -8,9 +8,9 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task2.V25.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
+            int x = 2;
             var res = ds.ConvertRadsToDegrees(x);
-            Assert.AreEqual(%3, res);
+            Assert.AreEqual(4, res);
         }
     }
 }
