@@ -6,7 +6,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task2.V25.Lib
     {
         public double ConvertRadsToDegrees(int value)
         {
-            return value * value;
+            return value * 180/ Double.Pi;
         }
     }
 }
