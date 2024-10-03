@@ -5,7 +5,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task0.V19.Lib
     {
         public double Calculate()
         {
-            return 4 / 2 * 5 / (3 + 2) * 5;
+            return 4/2*5/(3 + 2)*5;
         }
     }
 }
