@@ -33,7 +33,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task4.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("1/ (x^2 + 2^2) = " + ds.Calculate(x));
+            Console.WriteLine("1 / (x^2 + 2^2) = " + ds.Calculate(x));
         }
     }
 }
