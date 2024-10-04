@@ -5,7 +5,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task3.V2.Lib
     {
         public double PurchaseAmount(double priceNotebook, int amountNotebook, double pricePencil, int amountPencil)
         {
-            return priceNotebook * amountNotebook + pricePencil * amountPencil ;
+            return Math.Round (priceNotebook * amountNotebook + pricePencil * amountPencil, 3);
         }
     }
 }
