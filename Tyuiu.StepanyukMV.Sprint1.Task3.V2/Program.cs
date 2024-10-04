@@ -46,7 +46,7 @@ namespace Tyuiu.StepanyukMV.Sprint1.Task3.V2
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.PurchaseAmount(priceNotebook, amountNotebook, pricePencil, amountPencil));
-
+            
             Console.ReadLine();
 
         }
